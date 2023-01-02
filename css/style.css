@@ -4,6 +4,50 @@ header{
   justify-content: space-between;
 }
 
+html{
+  font-size: 16px;
+  font-family: Raleway;
+  line-height: 19px;
+  font-weight: 400;
+  color: black;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: black;
+}
+
+h2{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: black;
+}
+
+
 ul{list-style: none;
+
+}
+
+.section1{
+  background-color: #f2f2f2;
+}
+
+.cardsheb{
+  background-color: white;
+  border-radius: 20px;
+}
+
+.imgheb{
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  border-radius: 20px 20px 0px 0px;
 
 }
