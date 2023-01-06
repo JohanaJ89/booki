@@ -1,44 +1,61 @@
-header{
-    display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  direction: row;
-}
-
-html{
+html {
   font-size: 16px;
   font-family: Raleway;
   line-height: 19px;
   font-weight: 400;
   color: black;
   font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav img {
+  width: 61.09px;
+  height: 19px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+align-items: space-between;
+
+}
+
+.container {
   max-width: 1400px;
   height: 992px;
 }
 
-h1{
+h1 {
   font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
-color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: black;
 }
 
-h2{
+h2 {
   font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
 }
 
 
-ul{list-style: none;
+ul {
+  list-style: none;
 
 }
 
+/*
 .section1{
   background-color: #f2f2f2;
   display: flex;
@@ -46,7 +63,7 @@ ul{list-style: none;
   
 }
 
-.cardsheb{
+.section1 .cardsheb{
   display: inline;
   background-color: white;
   border-radius: 20px;
@@ -65,4 +82,4 @@ ul{list-style: none;
   height: 124px;
 
 
-}
+}*/
