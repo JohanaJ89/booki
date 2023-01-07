@@ -16,8 +16,8 @@
          <nav class="menu">
             <img src="Images/ImagesBooki/logo/Booki.png" alt="logo booki">
             <ul>
-               <li><a href="#HébergementsàMarseille">Hébergements</a></li>
-               <li><a href="#ActivitésàMarseille">Activités</a></li>
+               <li class="menu_list"><a href="#HébergementsàMarseille">Hébergements</a></li>
+               <li class="menu_list"><a href="#ActivitésàMarseille">Activités</a></li>
 
             </ul>
          </nav>
@@ -28,17 +28,12 @@
          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
          <p>En plein centre-ville ou en pleine nature</p>
 
-         <fieldset>
-            <article class="article1">
+         <article class="article1">
+            <i class="fa-solid fa-location-dot"></i>
+            <form><input type="search" id="search" name="search" placeholder="Marseille, France"></form>
+            <button class="busearch">rechercher</button>
+         </article>
 
-               <a href="localisation">
-                  <i class="fa-solid fa-location-dot"></i>
-               </a>
-
-               <form><input type="search" id="search" name="search" placeholder="Marseille, France"></form>
-               <button class="busearch">rechercher</button>
-            </article>
-         </fieldset>
 
          <article class="article2">
             <h2 class="Filtres">
@@ -95,7 +90,7 @@
 
                <article class="cardsheb">
 
-                  <img class="imgheb" src="Images/ImagesBooki/activites/3_medium/hotelport.jpg" alt="Hôtel du port">
+                  <img class="imgheb" src="Images/ImagesBooki/hebergements/3_medium/hotelport.jpg" alt="Hôtel du port">
                   <div class="content">
                      <h2 class="titlecard">Hôtel du port</h2>
                      <p class="prix"> Nuit à partir de 52€ </p>
@@ -128,8 +123,7 @@
 
                <article class="cardsheb">
 
-                  <img class="imgheb" src="Images/ImagesBooki/hebergements/3_medium/hotelmer.jpg"
-                     alt="Hôtel de la mer">
+                  <img class="imgheb" src="Images/ImagesBooki/hebergements/3_medium/hotelmer.jpg" alt="Hôtel de la mer">
                   <div class="content">
                      <h2 class="titlecard">Hôtel de la mer</h2>
                      <p class="prix"> Nuit à partir de 46€ </p>

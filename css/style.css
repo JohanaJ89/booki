@@ -22,8 +22,27 @@ nav img {
 nav ul {
   display: flex;
   flex-direction: row;
-align-items: space-between;
+  justify-content: space-around;
+  width: 224px;
+  padding-inline-start: 0;
+}
 
+
+
+.menu_list {
+  font-weight: 400;
+  left: 318px;
+}
+
+.menu_list>a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu_list>a:hover {
+  color: blue;
+  font-weight: 500;
+  left: 138px;
 }
 
 .container {
@@ -55,8 +74,16 @@ ul {
 
 }
 
-/*
-.section1{
+.article1>i{
+  background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.section1{
   background-color: #f2f2f2;
   display: flex;
   
