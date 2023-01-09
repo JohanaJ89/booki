@@ -75,6 +75,14 @@ ul {
 
 }
 
+.reve {
+ padding-top: 21px;
+}
+
+.ville {
+  margin-top: -8px;
+}
+
 .article1>i {
   background: #F2F2F2;
   border: 1px solid #F2F2F2;
@@ -123,6 +131,32 @@ form #search::placeholder {
   border-radius: 0px 15px 15px 0px;
   font-weight: 700;
   width: 132px;
+}
+
+.article2{
+  display: flex;
+}
+
+.buttonsfilters>li button:hover{
+background: #deebff;
+border: 2px solid #d9d9d9;
+border-radius: 25px;
+
+}
+
+.buttonsfilters{
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsfilters>li button i{
+  color: #0065FC;
+}
+
+.buttonsfilters>li button{
+  border-radius:25px ;
+  border: 2px solid #D9D9D9;
+  
 }
 
 /*.section1{
