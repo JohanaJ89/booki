@@ -37,12 +37,19 @@ nav ul {
 .menu_list>a {
   color: black;
   text-decoration: none;
+  flex: 1;
 }
 
 .menu_list>a:hover {
   color: blue;
   font-weight: 500;
   left: 138px;
+}
+
+.menu_list:hover {
+  border-top: solid #0065FC 3px;
+  padding-top: 46px;
+  margin: 48px 10px 0 10px;
 }
 
 .container {
@@ -76,7 +83,7 @@ ul {
 }
 
 .reve {
- padding-top: 21px;
+  padding-top: 21px;
 }
 
 .ville {
@@ -133,30 +140,47 @@ form #search::placeholder {
   width: 132px;
 }
 
-.article2{
+.article2 {
   display: flex;
+  align-items: baseline;
+  margin-top: 17px;
 }
 
-.buttonsfilters>li button:hover{
-background: #deebff;
-border: 2px solid #d9d9d9;
-border-radius: 25px;
+.Filtres>h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.buttonsfilters>li button:hover {
+  background: #deebff;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
 
 }
 
-.buttonsfilters{
+.buttonsfilters {
   display: flex;
   flex-direction: row;
 }
 
-.buttonsfilters>li button i{
-  color: #0065FC;
+.buttonsfilters>li {
+  margin-right: 30px;
 }
 
-.buttonsfilters>li button{
-  border-radius:25px ;
+.buttonsfilters>li button i {
+  color: #0065FC;
+  width: 22px;
+  height: 16px;
+}
+
+.buttonsfilters>li button {
+  border-radius: 25px;
   border: 2px solid #D9D9D9;
-  
+  padding: 4px 20px 4px 20px;
+  height: 48px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
 }
 
 /*.section1{
