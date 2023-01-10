@@ -183,6 +183,26 @@ form #search::placeholder {
   font-weight: 700;
 }
 
+.hebpop>p{
+
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hebpop>p>i {
+
+  color: #0065FC;
+  border: 1px solid #D9D9D9;
+  border-radius: 24px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+}
+
 /*.section1{
   background-color: #f2f2f2;
   display: flex;
