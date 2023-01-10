@@ -203,21 +203,28 @@ form #search::placeholder {
   margin-right: 11px;
 }
 
-/*.section1{
+.section1{
   background-color: #f2f2f2;
   display: flex;
-  
-  
+    
+}
+#col{ column-count: 3;
+
+}
+
+.section1>h1{
+  display: flex;
+  align-items: flex-start;
 }
 
 .section1 .cardsheb{
-  display: inline;
+  display: inline-table;
   background-color: white;
   border-radius: 20px;
   width: 246px;
   height: 199px;
-  direction: row;
-  justify-content: space-between;
+  direction: unset;
+
   
 }
 
@@ -229,4 +236,32 @@ form #search::placeholder {
   height: 124px;
 
 
-}*/
+}
+.section1 .titlecard{
+
+  margin-top: 4px;
+  margin-left: 16px;
+}
+
+.section1 .content>p{
+
+  margin-top: -9px;
+  margin-left: 16px;
+}
+
+.section1 .notes{
+
+  margin-top: -9px;
+  margin-left: 16px;
+  margin-bottom: 11px;
+  color: #0065FC;
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+
+
+.empty-star{
+
+  color: #D9D9D9;
+}
