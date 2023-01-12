@@ -307,12 +307,12 @@ color: black;
 .morefamous>h3{
   font-weight: 700;
   display: inline-block;
-    margin: 41px 59px 26px 37px;
+    margin: 41px 59px -42px 37px;
     align-items: center;
     justify-content: space-between;
 }
 
-.morefamous .fa-solid{
+.morefamous .fa-chart-line{
   width: 18px;
   height: 15px;
   color: #0065FC;
@@ -329,12 +329,41 @@ color: black;
   height: 144px;
   background: #FFFFFF;
   border-radius: 20px;
+  display: flex;
+  margin: 28px 40px 33px 37px;
 }
 
-.morefamous .cards>img{
+ .imgpop{
   width: 137px;
   height: 144px;
   box-sizing: border-box;
   border: 5px solid #FFFFFF;
   border-radius: 20px 0 0 20px;
+}
+.morefamous .content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.morefamous .notes{
+  color: #0065FC;
+  margin: -44px 123px 12px 15px;
+  display: flex;
+}
+
+.morefamous .titlecard{
+  font-weight: 700;
+  width: 169px;
+  height: 38px;
+  line-height: 19px;
+  margin: 16px 22px 7px 15px;
+}
+
+.morefamous .content>p{
+
+font-weight: 400;
+width: 169px;
+height: 15px;
+margin: 0 22px 68px 15px;
 }
