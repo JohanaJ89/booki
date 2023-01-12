@@ -221,7 +221,10 @@ form #search::placeholder {
     align-content: stretch;
     min-width: 100%;
 }
-
+.cardsheb>a{
+text-decoration: none;
+color: black;
+}
 
 .section1>h1 {
   display: flex;
@@ -284,5 +287,54 @@ form #search::placeholder {
   color: black;
   font-weight: 700;
   font-size: 20px;
-  margin: 0 0 46px 44px;
+  margin: -10px 0 46px 44px;
+}
+
+.showmore>a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.morefamous{
+  width: 420px;
+  height: 625px;
+  background: #F2F2F2;
+  border-radius: 20px;
+  ;
+}
+
+.morefamous>h3{
+  font-weight: 700;
+  display: inline-block;
+    margin: 41px 59px 26px 37px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.morefamous .fa-solid{
+  width: 18px;
+  height: 15px;
+  color: #0065FC;
+  display: flex;
+  padding: 0 118px 42px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 169px;
+}
+
+.morefamous .cards{
+  width: 343px;
+  height: 144px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.morefamous .cards>img{
+  width: 137px;
+  height: 144px;
+  box-sizing: border-box;
+  border: 5px solid #FFFFFF;
+  border-radius: 20px 0 0 20px;
 }
