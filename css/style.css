@@ -25,6 +25,7 @@ nav ul {
   justify-content: space-around;
   width: 224px;
   padding-inline-start: 0;
+  margin-left: 1000px;
 }
 
 
@@ -38,6 +39,7 @@ nav ul {
   color: black;
   text-decoration: none;
   flex: 1;
+  margin-right: 30px;
 }
 
 .menu_list>a:hover {
@@ -301,7 +303,7 @@ color: black;
   height: 625px;
   background: #F2F2F2;
   border-radius: 20px;
-  ;
+  margin: 0 50px 0 40px;
 }
 
 .morefamous>h3{
@@ -331,6 +333,7 @@ color: black;
   border-radius: 20px;
   display: flex;
   margin: 28px 40px 33px 37px;
+  filter: drop-shadow(0px 3px 15px rgba(0,0,0,0.1));
 }
 
  .imgpop{
@@ -367,3 +370,21 @@ width: 169px;
 height: 15px;
 margin: 0 22px 68px 15px;
 }
+
+.all{
+  display: -webkit-box;
+  width: 100%;
+}
+
+.activity>h3{
+  font-weight: 700;
+}
+
+.activcard>img{
+  border-radius: 20px;
+  width: 302px;
+  height: 444px;
+  filter: drop-shadow( 0px 3px 15px rgba(0,0,0,0.1));
+}
+
+
