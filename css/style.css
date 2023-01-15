@@ -433,3 +433,20 @@ footer .footer>h2{
 .footer li{
   margin: 0 0 12px 0;
 }
+
+
+@media screen (max-width:767px){
+  
+}
+
+.container{
+  width: 375px;
+  
+}
+
+nav {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+
+}
