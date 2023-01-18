@@ -7,14 +7,14 @@ html {
   font-style: normal;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
 
-nav img {
+#logo img{
   width: 61.09px;
   height: 19px;
 }
@@ -30,25 +30,25 @@ nav ul {
 
 
 
-.menu_list {
+nav li {
   font-weight: 400;
   left: 318px;
 }
 
-.menu_list>a {
+nav li>a {
   color: black;
   text-decoration: none;
   flex: 1;
   margin-right: 30px;
 }
 
-.menu_list>a:hover {
+nav li>a:hover {
   color: blue;
   font-weight: 500;
   left: 138px;
 }
 
-.menu_list:hover {
+nav li:hover {
   border-top: solid #0065FC 3px;
   padding-top: 46px;
   margin: 48px 10px 0 10px;
@@ -84,15 +84,16 @@ ul {
 
 }
 
-.reve {
+main #search_filters h1 {
   padding-top: 21px;
 }
 
-.ville {
+main #search_filters h2 {
   margin-top: -8px;
+  font-weight: 400;
 }
 
-.article1>i {
+.searching label {
   background: #F2F2F2;
   border: 1px solid #F2F2F2;
   border-radius: 15px 0px 0px 15px;
@@ -102,7 +103,7 @@ ul {
   justify-content: center;
 }
 
-.article1 {
+.searching {
   display: flex;
   width: 368px;
   height: 49px;
@@ -435,9 +436,7 @@ footer .footer>h2{
 }
 
 
-@media screen (max-width:767px){
-  
-}
+@media screen (max-width:767px)
 
 .container{
   width: 375px;

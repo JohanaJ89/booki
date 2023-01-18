@@ -10,29 +10,32 @@
 
 <body>
    <div class="container">
+      <!--header-->
       <header>
-
-
-         <nav class="menu">
+         <div id="logo">
             <img src="Images/ImagesBooki/logo/Booki.png" alt="logo booki">
+         </div>
+         <nav class="menu">
             <ul>
-               <li class="menu_list"><a href="#HébergementsàMarseille">Hébergements</a></li>
-               <li class="menu_list"><a href="#ActivitésàMarseille">Activités</a></li>
-
+               <li ><a href="#HébergementsàMarseille">Hébergements</a></li>
+               <li ><a href="#ActivitésàMarseille">Activités</a></li>
             </ul>
          </nav>
 
       </header>
-
+<!--main-->
       <main>
-         <h1 class="reve">Trouvez votre hébergement pour des vacances de rêve</h1>
-         <p class="ville">En plein centre-ville ou en pleine nature</p>
+         <div id="search_filters">
+         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+         <h2>En plein centre-ville ou en pleine nature</h2>
 
-         <article class="article1">
-            <i class="fa-solid fa-location-dot"></i>
-            <form><input type="search" id="search" name="search" placeholder="Marseille, France"></form>
+         <section class="searching">
+           <label><i class="fa-solid fa-location-dot"></i></label>
+            <form>
+               <input type="search" id="search" name="search" placeholder="Marseille, France">
+            </form>
             <button class="busearch">Rechercher</button>
-         </article>
+         </section>
 
 
          <article class="article2">
@@ -61,7 +64,7 @@
                   </button>
                </li>
             </ul>
-         </article>
+         </article></div>
 
          <div class="hebpop">
             <p><i class="fa-solid fa-info"></i>
