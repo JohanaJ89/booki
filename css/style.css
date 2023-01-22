@@ -441,9 +441,8 @@ footer .footer>h2{
   margin: 0 0 12px 0;
 }
 
-
-@media screen (max-width:767px){}
-
+/*
+@media screen (max-width:767px){body}
 
  
 header{
@@ -537,23 +536,24 @@ h1,h2, #search_filters{
   max-width: none;
 }
 
-#activitys h2{
+.activity h2{
   margin-left: 15px;
 }
-#activitys__cards-container{
+.activity{
   flex-direction: column;
   height: auto;
   margin: 0 20px;
 }
-.activitys__cards-container__article-size{
+.activity{
   width: 100%;
   margin: 0;
 }
-.activitys__cards-container__article-size img{
+.activcard img{
   height: calc(90% - 40px);
 }
-.card-activity, .activitys__cards-container__article-size .card-activity-small, #card-activity--very-small,  #card-activity--midle{
+.activcard{
   height: 200px;
   margin: 20px 0;
   width: 100%;
 }
+*/
