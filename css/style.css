@@ -1,11 +1,12 @@
-html {
-  font-size: 16px;
-  font-family: Raleway;
-  line-height: 19px;
-  font-weight: 400;
-  color: black;
-  font-style: normal;
+body {
+  width: 100%;
+  margin: auto;
 }
+
+.container {
+  max-width: 1400px;
+}
+
 
 header {
   display: flex;
@@ -14,9 +15,10 @@ header {
 
 }
 
-#logo img{
+#logo img {
   width: 61.09px;
   height: 19px;
+  padding: 44px 0 0 55px;
 }
 
 nav ul {
@@ -24,41 +26,31 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   width: 224px;
-  padding-inline-start: 0;
-  margin-left: 1000px;
+  padding: 48px 77px 0 982px;
 }
 
 
 
-nav li {
+.menu .link {
   font-weight: 400;
   left: 318px;
 }
 
-nav li>a {
+.menu .link>a {
   color: black;
   text-decoration: none;
   flex: 1;
   margin-right: 30px;
 }
 
-nav li>a:hover {
+.menu .link>a:hover {
   color: blue;
   font-weight: 500;
   left: 138px;
-}
-
-nav li:hover {
   border-top: solid #0065FC 3px;
-  padding-top: 46px;
   margin: 48px 10px 0 10px;
 }
 
-.container {
-  max-width: 1400px;
-  height: 992px;
-  margin: 44px 50px 0 50px;
-}
 
 h1 {
   font-family: 'Raleway';
@@ -82,6 +74,10 @@ h2 {
 ul {
   list-style: none;
 
+}
+
+#search_filters {
+  padding: 0 464px 0 55px;
 }
 
 main #search_filters h1 {
@@ -149,7 +145,7 @@ form #search::placeholder {
   margin-top: 17px;
 }
 
-.Filtres>h2 {
+#search_filters .Filtres{
   font-weight: 700;
   text-align: center;
 }
@@ -174,7 +170,10 @@ form #search::placeholder {
   color: #0065FC;
   width: 22px;
   height: 16px;
+  padding: 0 10px 0 0;
 }
+
+
 
 .buttonsfilters>li button {
   border-radius: 25px;
@@ -184,6 +183,12 @@ form #search::placeholder {
   background-color: white;
   color: black;
   font-weight: 700;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 17px;
+  line-height: 20px;
+  white-space: nowrap;
 }
 
 .hebpop label {
@@ -207,9 +212,9 @@ form #search::placeholder {
 }
 
 
-.hebpop>h2{
+.hebpop>h2 {
   font-weight: 400;
-display: inline-block;
+  display: inline-block;
 }
 
 .section1 {
@@ -384,17 +389,21 @@ display: inline-block;
   display: -webkit-box;
   width: 100%;
 }
-.blocactiv{
+
+.blocactiv {
   display: flex;
   justify-content: space-between;
   margin-left: -50px;
 }
+
 .activity>h3 {
   font-weight: 700;
 }
-.activcard{
+
+.activcard {
   margin: 18.47px 0 61px 50px;
 }
+
 .activcard>img {
   border-radius: 20px;
   width: 302px;
@@ -414,35 +423,35 @@ display: inline-block;
   padding-left: 19px;
 }
 
-footer{
+footer {
   display: flex;
   flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    text-align: justify;
-    background: #F2F2F2;
-    height: 225px;
-    width: 1339px;
-    padding: 30px 50px 50px 50px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: justify;
+  background: #F2F2F2;
+  height: 225px;
+  width: 1339px;
+  padding: 30px 50px 50px 50px;
 }
 
-.footer{
+.footer {
   margin-top: 45px;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-footer .footer>h2{
+footer .footer>h2 {
   margin-left: 41px;
 }
 
-.footer li{
+.footer li {
   margin: 0 0 12px 0;
 }
 
-/*
-@media screen (max-width:767px){body}
+
+/*@media screen (max-width:767px){body}
 
  
 header{
