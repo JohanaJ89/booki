@@ -191,6 +191,10 @@ form #search::placeholder {
   white-space: nowrap;
 }
 
+.hebpop{
+  padding: 0px 50px 0px 50px;
+}
+
 .hebpop label {
 
   display: inline-flex;
@@ -388,6 +392,11 @@ form #search::placeholder {
 .all {
   display: -webkit-box;
   width: 100%;
+  padding: 39px 0 0 0;
+}
+
+.activity{
+  padding: 60px 53px 0 50px;
 }
 
 .blocactiv {
@@ -432,7 +441,8 @@ footer {
   background: #F2F2F2;
   height: 225px;
   width: 1339px;
-  padding: 30px 50px 50px 50px;
+  padding-left: 70px;
+  margin: 30px -53px 0 48px;
 }
 
 .footer {
