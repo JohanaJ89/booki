@@ -462,6 +462,36 @@ footer .footer>h2 {
 
 
 @media screen and (max-width : 992px){
+  #logo img {
+    width: 61.09px;
+    height: 19px;
+    margin: 44px 0 0 72px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 224px;
+    padding: 48px 72px 0 1046px;
+  }
   
+  main #search_filters h1 {
+    padding: 58px 0 0 72px;
+    width: 580px;
+  }
+
+  main #search_filters h2 {
+    margin: 13px 0 20px 72px;
+    font-weight: 400;
+  }
+
+  .searching{
+    margin: 0 0 0 74px;
+  }
+
+  .article2{
+    margin: 12px 0 0 0;
+  }
 }
   
