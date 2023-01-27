@@ -194,7 +194,8 @@ form #search::placeholder {
 .hebpop {
   padding: 0px 50px 0px 50px;
 }
-#infos{
+
+#infos {
   display: flex;
   width: 489px;
   height: 24px;
@@ -505,6 +506,9 @@ footer .footer>h2 {
     width: 100%;
     padding: 39px 0 0 0;
   }
+#infos{
+  padding: 35px 934px 8px 141px;
+}
 
   .section1 {
     margin: 39px 72px 39px 72px;
@@ -531,5 +535,26 @@ footer .footer>h2 {
     height: 144px;
     display: inline-flex;
     margin: 21px -16px -3px 38px;
+  }
+
+  .imgpop {
+    width: 106px;
+    object-fit: cover;
+  }
+
+  .morefamous .titlecard {
+    width: 111px;
+    line-height: 16px;
+    margin: 16px 22px 12px 10px;
+  }
+
+  .morefamous .content>p{
+    width: 132px;
+    height: 30px;
+    margin: 7px 4px 0 10px;
+  }
+
+  .morefamous .notes{
+    margin: 25px 68px 12px 10px;
   }
 }
