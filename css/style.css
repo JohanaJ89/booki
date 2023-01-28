@@ -557,4 +557,38 @@ footer .footer>h2 {
   .morefamous .notes{
     margin: 25px 68px 12px 10px;
   }
+
+  .activity {
+    padding: 70px 73px 69px 73px;
+}
+
+.activity>h3{
+  margin: 0 0 0 73px;
+}
+
+.activcard>img{
+  width: 182px;
+  height: 276px;
+  object-fit: cover;
+}
+
+
+.blocactiv{
+  justify-content: flex-start;
+  margin: 34px 50px 0px 15px;
+}
+
+.activcard{
+  margin: 18.47px 0 52px 50px;
+}
+.activcard .titlecard{
+  width: 179px;
+  justify-content: center;
+  padding-left: 5px;
+}
+
+footer{
+  width: 879.65px;
+    margin: 0 70px 0 73px;
+}
 }
