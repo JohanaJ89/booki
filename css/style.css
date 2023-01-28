@@ -1,12 +1,11 @@
 body {
-  width: 100%;
   margin: auto;
+  max-width: 1440px;
 }
 
 .container {
-  max-width: 1400px;
+  margin: 44px 50px 0 50px;
 }
-
 
 header {
   display: flex;
@@ -18,7 +17,6 @@ header {
 #logo img {
   width: 61.09px;
   height: 19px;
-  padding: 44px 0 0 55px;
 }
 
 nav ul {
@@ -26,7 +24,6 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   width: 224px;
-  padding: 48px 77px 0 982px;
 }
 
 
@@ -43,7 +40,7 @@ nav ul {
   margin-right: 30px;
 }
 
-.menu .link>a:hover {
+.menu .link:hover {
   color: blue;
   font-weight: 500;
   left: 138px;
@@ -74,10 +71,6 @@ h2 {
 ul {
   list-style: none;
 
-}
-
-#search_filters {
-  padding: 0 464px 0 55px;
 }
 
 main #search_filters h1 {
@@ -191,15 +184,10 @@ form #search::placeholder {
   white-space: nowrap;
 }
 
-.hebpop {
-  padding: 0px 50px 0px 50px;
-}
-
 #infos {
   display: flex;
   width: 489px;
   height: 24px;
-  padding: 35px 934px 37px 59px;
   align-items: center;
 }
 
@@ -323,27 +311,26 @@ form #search::placeholder {
   height: 625px;
   background: #F2F2F2;
   border-radius: 20px;
-  margin: 0 50px 0 40px;
+  margin-left: 40px;
 }
 
-.morefamous>h3 {
+.morefamous h3 {
   font-weight: 700;
-  display: inline-block;
-  margin: 41px 59px -42px 37px;
-  align-items: center;
-  justify-content: space-between;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .morefamous .fa-chart-line {
   width: 18px;
   height: 15px;
   color: #0065FC;
+}
+
+#famous-head {
   display: flex;
-  padding: 0 118px 42px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  margin-top: -20px;
-  margin-left: 169px;
+  margin: 41px 40px 0 37px;
 }
 
 .morefamous .cards {
@@ -372,7 +359,7 @@ form #search::placeholder {
 
 .morefamous .notes {
   color: #0065FC;
-  margin: -44px 123px 12px 15px;
+  margin: 0 0 12px 15px;
   display: flex;
 }
 
@@ -389,31 +376,26 @@ form #search::placeholder {
   font-weight: 400;
   width: 169px;
   height: 15px;
-  margin: 0 22px 68px 15px;
+  margin: 0 22px 44px 15px;
 }
 
 .all {
-  display: -webkit-box;
+  display: flex;
   width: 100%;
   padding: 39px 0 0 0;
 }
 
 .activity {
-  padding: 60px 53px 0 50px;
+  margin-top: 60px;
 }
 
 .blocactiv {
   display: flex;
   justify-content: space-between;
-  margin-left: -50px;
 }
 
 .activity>h3 {
   font-weight: 700;
-}
-
-.activcard {
-  margin: 18.47px 0 61px 50px;
 }
 
 .activcard>img {
@@ -443,9 +425,7 @@ footer {
   text-align: justify;
   background: #F2F2F2;
   height: 225px;
-  width: 1339px;
-  padding-left: 70px;
-  margin: 30px -53px 0 48px;
+  margin-top: 60px;
 }
 
 .footer {
@@ -455,8 +435,13 @@ footer {
   width: 100%;
 }
 
+footer ul,
 footer .footer>h2 {
-  margin-left: 41px;
+  margin-left: 70px;
+}
+
+footer ul {
+  padding-inline-start: 0;
 }
 
 .footer li {
@@ -468,7 +453,6 @@ footer .footer>h2 {
   #logo img {
     width: 61.09px;
     height: 19px;
-    margin: 44px 0 0 72px;
   }
 
   nav ul {
@@ -476,29 +460,14 @@ footer .footer>h2 {
     flex-direction: row;
     justify-content: space-around;
     width: 224px;
-    padding: 48px 72px 0 1046px;
   }
 
   main #search_filters h1 {
-    padding: 58px 0 0 72px;
     width: 580px;
   }
 
   main #search_filters h2 {
-    margin: 13px 0 20px 72px;
     font-weight: 400;
-  }
-
-  .searching {
-    margin: 0 0 0 74px;
-  }
-
-  .article2 {
-    margin: 12px 0 0 0;
-  }
-
-  .hebpop {
-    padding: 0px 0px 0px 72px;
   }
 
   .all {
@@ -506,28 +475,12 @@ footer .footer>h2 {
     width: 100%;
     padding: 39px 0 0 0;
   }
-#infos{
-  padding: 35px 934px 8px 141px;
-}
-
-  .section1 {
-    margin: 39px 72px 39px 72px;
-  }
 
   .morefamous {
     width: 883px;
     height: 278px;
     background: #F2F2F2;
     border-radius: 20px;
-    margin: 53px 71px 0 70px;
-  }
-
-  .morefamous>h3 {
-    margin: 34px 0px 0px 40px;
-  }
-
-  .morefamous .fa-chart-line {
-    margin: -29px 40px 0 579px;
   }
 
   .morefamous .cards {
@@ -545,50 +498,31 @@ footer .footer>h2 {
   .morefamous .titlecard {
     width: 111px;
     line-height: 16px;
-    margin: 16px 22px 12px 10px;
   }
 
-  .morefamous .content>p{
+  .morefamous .content>p {
     width: 132px;
     height: 30px;
     margin: 7px 4px 0 10px;
   }
 
-  .morefamous .notes{
+  .morefamous .notes {
     margin: 25px 68px 12px 10px;
   }
 
-  .activity {
-    padding: 70px 73px 69px 73px;
-}
+  .activcard>img {
+    width: 182px;
+    height: 276px;
+    object-fit: cover;
+  }
 
-.activity>h3{
-  margin: 0 0 0 73px;
-}
+  .activcard .titlecard {
+    width: 163px;
+    align-items: center;
 
-.activcard>img{
-  width: 182px;
-  height: 276px;
-  object-fit: cover;
-}
+  }
 
-
-.blocactiv{
-  justify-content: flex-start;
-  margin: 34px 50px 0px 15px;
-}
-
-.activcard{
-  margin: 18.47px 0 52px 50px;
-}
-.activcard .titlecard{
-  width: 179px;
-  justify-content: center;
-  padding-left: 5px;
-}
-
-footer{
-  width: 879.65px;
-    margin: 0 70px 0 73px;
-}
+  footer {
+    width: 879.65px;
+  }
 }
