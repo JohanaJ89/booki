@@ -31,21 +31,21 @@ nav ul {
 .menu .link {
   font-weight: 400;
   left: 318px;
-}
-
-.menu .link>a {
   color: black;
   text-decoration: none;
   flex: 1;
   margin-right: 30px;
 }
 
+
 .menu .link:hover {
   color: blue;
   font-weight: 500;
   left: 138px;
   border-top: solid #0065FC 3px;
-  margin: 48px 10px 0 10px;
+  margin: 0 10px 0 10px;
+  padding 58px 0;
+
 }
 
 
@@ -451,9 +451,9 @@ footer ul {
 }
 
 
-@media screen and (max-width : 992px) {
+@media screen and (max-width : 991px) {
   body {
-    max-width: max-content;
+    max-width: 991px;
   }
 
   #logo img {
@@ -543,10 +543,15 @@ footer ul {
 }
 
 
-@media screen and (max-width : 768px) {
+
+@media screen and (max-width : 767px) {
 
   body {
     max-width: max-content;
+  }
+
+  .container {
+    margin: 21px 22px 0 20px;
   }
 
   header {
@@ -554,6 +559,7 @@ footer ul {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    width: 100%;
   }
 
 }
