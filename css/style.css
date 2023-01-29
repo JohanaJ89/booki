@@ -450,6 +450,10 @@ footer ul {
 
 
 @media screen and (max-width : 992px) {
+  body{
+    max-width: max-content;
+  }
+  
   #logo img {
     width: 61.09px;
     height: 19px;
@@ -470,10 +474,18 @@ footer ul {
     font-weight: 400;
   }
 
+  #infos {
+    padding: 20px 0 39px 0;
+  }
+
   .all {
     display: contents;
     width: 100%;
     padding: 39px 0 0 0;
+  }
+
+  #famous-head {
+    padding: 34px 0 0 0;
   }
 
   .morefamous {
@@ -481,6 +493,7 @@ footer ul {
     height: 278px;
     background: #F2F2F2;
     border-radius: 20px;
+    margin: 0;
   }
 
   .morefamous .cards {
@@ -525,4 +538,20 @@ footer ul {
   footer {
     width: 879.65px;
   }
+}
+
+
+@media screen and (max-width : 768px) {
+
+body{
+  max-width:max-content;
+}
+
+  header {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
 }
