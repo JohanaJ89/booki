@@ -62,8 +62,6 @@ h2 {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
   color: black;
 }
 
@@ -484,10 +482,14 @@ footer ul {
     padding: 39px 0 0 0;
   }
 
+  
+
   #famous-head {
     padding: 34px 0 0 0;
+    margin: 0;
   }
 
+  
   .morefamous {
     width: 883px;
     height: 278px;
@@ -495,6 +497,8 @@ footer ul {
     border-radius: 20px;
     margin: 0;
   }
+
+  
 
   .morefamous .cards {
     width: 252px;
@@ -553,8 +557,9 @@ footer ul {
   }
 
   header {
-    align-items: center;
+
     flex-direction: column;
+    width: 375px;
   }
 
 
@@ -570,7 +575,6 @@ footer ul {
 
 
   .menu .link {
-    width: 100%;
     padding-bottom: 10px;
     border-bottom: solid #F2F2F2 3px;
   }
@@ -579,6 +583,7 @@ footer ul {
     border-top: none;
     border-bottom: solid #0065FC 3px;
     margin: 0;
+    padding-bottom: 10px;
   }
 
   main #search_filters h1 {
@@ -612,21 +617,18 @@ footer ul {
 
   .article2 {
     align-items: flex-start;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+
   }
 
   .buttonsfilters {
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: center;
-    width: 375px;
+
   }
 
   #infos {
     width: 298px;
+    padding: 0;
   }
 
   .all {
@@ -658,36 +660,63 @@ footer ul {
     justify-content: space-evenly;
     align-items: center;
   }
+  .section1 .cardsheb{
+    width: 335px;
+    margin: 23px 15.5px 14px 15.5px;
+  }
 
-  .blocactiv{
+  .imgheb{
+    width: 335px;
+    
+  }
+
+  .imgpop {
+    width: 137px;
+  }
+#famous-head{
+    padding: 0;
+    width: 375px;
+    justify-content: space-around;
+    margin: 0;
+  }
+  #famous-head h2{
+    margin: 0;
+  }
+
+  .morefamous .cards {
+    width: 334px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .blocactiv {
     display: flex;
     flex-direction: column;
   }
 
-.activcard .titlecard{
-  width: 315px;
-}
+  .activcard .titlecard {
+    width: 315px;
+  }
 
-  .activcard>img{
+  .activcard>img {
     width: 334px;
     height: 190px;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 375px;
     height: 501px;
-    
+
   }
 
-  .footer{
+  .footer {
     margin: 0;
   }
 
-  footer .footer>h2{
+  footer .footer>h2 {
     width: 77px;
     height: 21px;
     font-size: 18px;
