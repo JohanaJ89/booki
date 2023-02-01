@@ -233,7 +233,7 @@ input[type="submit" i] {
 .section1>h2 {
   display: flex;
   align-items: flex-start;
-  margin: 42px 0 0 40px;
+  margin: 20px 0 0 40px;
   font-weight: 700;
   font-size: 22px;
 }
@@ -327,7 +327,7 @@ input[type="submit" i] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 41px 40px 0 37px;
+  margin: 20px 40px 0 37px;
 }
 
 .morefamous .cards {
@@ -482,20 +482,13 @@ footer ul {
     padding: 39px 0 0 0;
   }
 
-  
-
-  #famous-head {
-    padding: 34px 0 0 0;
-    margin: 0;
-  }
-
-  
+      
   .morefamous {
     width: 883px;
     height: 278px;
     background: #F2F2F2;
     border-radius: 20px;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
 
   
@@ -553,13 +546,12 @@ footer ul {
   }
 
   .container {
-    margin: 21px 22px 0 0;
+    margin: 21px 0 0 0;
   }
 
   header {
 
     flex-direction: column;
-    width: 375px;
   }
 
 
@@ -594,6 +586,11 @@ footer ul {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .searching{
+    width: 100%;
   }
 
   input[type="submit" i] {
@@ -617,13 +614,29 @@ footer ul {
 
   .article2 {
     align-items: flex-start;
-
+    margin-top: 34px;
+    flex-direction: column;
+    width: 100%;
   }
 
   .buttonsfilters {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+  }
 
+  .buttonsfilters>li{
+    margin-right: 14px;
+    margin-bottom: 17px;
+  }
+
+  .buttonsfilters>li button{
+    padding: 0 13px 0 13px;
+  }
+
+  .buttonsfilters>li button i{
+    padding: 0 5px 0 0;
   }
 
   #infos {
@@ -641,7 +654,6 @@ footer ul {
   .section1 {
     border-radius: inherit;
     background-color: #FFFFFF;
-
   }
 
   #col {
