@@ -109,6 +109,11 @@ input[type="search" i] {
   padding-left: 10px;
 }
 
+.search__bar::placeholder{
+  font-weight: 700;
+  color: black;
+}
+
 
 .searching .fa-magnifying-glass {
   visibility: hidden;
@@ -565,28 +570,45 @@ footer ul {
     justify-content: center;
   }
 
+  .menu ul{
+    width: 100%;
+    padding-inline-start: 0;
+  }
+  
+  .menu ul li{
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+
 
   .menu .link {
     padding-bottom: 10px;
     border-bottom: solid #F2F2F2 3px;
+    width: 100%;
+    margin-right: 0;
   }
 
   .menu .link:hover {
     border-top: none;
     border-bottom: solid #0065FC 3px;
     margin: 0;
-    padding-bottom: 10px;
+    padding: 0 0 10px 0;
   }
 
   main #search_filters h1 {
     width: 298px;
   }
 
+  main #search_filters h2{
+    font-size: 16px;
+  }
+
   #search_filters {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 40px;
-    width: 100%;
+    width: auto;
   }
 
   .searching{
@@ -633,6 +655,7 @@ footer ul {
 
   .buttonsfilters>li button{
     padding: 0 13px 0 13px;
+    font-size: 11px;
   }
 
   .buttonsfilters>li button i{
@@ -640,8 +663,14 @@ footer ul {
   }
 
   #infos {
-    width: 298px;
+    width:auto;
     padding: 0;
+    height: auto;
+    margin: 0 20px;
+  }
+
+  #infos>h2{
+    font-size: 16px;
   }
 
   .all {
@@ -654,6 +683,8 @@ footer ul {
   .section1 {
     border-radius: inherit;
     background-color: #FFFFFF;
+    width: auto;
+    height: auto;
   }
 
   #col {
@@ -662,7 +693,7 @@ footer ul {
 
   .morefamous {
 
-    width: 375px;
+    width: 100%;
     height: 580px;
     border-radius: inherit;
     margin: 0;
@@ -673,12 +704,26 @@ footer ul {
     align-items: center;
   }
   .section1 .cardsheb{
-    width: 335px;
+    width: auto;
     margin: 23px 15.5px 14px 15.5px;
   }
 
+  .section1 .titlecard{
+    font-size: 16px;
+  }
+
+  .showmore a{
+    display: none;
+  }
+.section1 h2{
+  margin: 20px 0 0 20px;
+}
+
+.section1 p{
+  font-size: 14px;}
+
   .imgheb{
-    width: 335px;
+    width: 100%;
     
   }
 
@@ -687,7 +732,7 @@ footer ul {
   }
 #famous-head{
     padding: 0;
-    width: 375px;
+    width: 100%;
     justify-content: space-around;
     margin: 0;
   }
@@ -696,21 +741,39 @@ footer ul {
   }
 
   .morefamous .cards {
-    width: 334px;
-    margin: 0px 2px 0px 0px;
+    width: auto;
+    margin: 0px 19px 0px 20px;
+    
   }
+.morefamous .titlecard{
+   margin: 16px 22px 15px 6px;
+  line-height: 18.78px;
+}
+
+.morefamous .content{
+  width: auto;
+}
+
+.morefamous .content>p{
+  width: 100%;
+  margin: 7px 4px 0 7px;
+}
 
   .blocactiv {
     display: flex;
     flex-direction: column;
   }
 
+  .activity{
+    margin: 0 19px 0 19px;
+  }
+
   .activcard .titlecard {
-    width: 315px;
+    width: auto;
   }
 
   .activcard>img {
-    width: 334px;
+    width: 100%;
     height: 190px;
   }
 
@@ -719,7 +782,7 @@ footer ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 375px;
+    width: 100%;
     height: 501px;
 
   }
@@ -729,8 +792,12 @@ footer ul {
   }
 
   footer .footer>h2 {
-    width: 77px;
-    height: 21px;
+      height: 21px;
     font-size: 18px;
+    margin-left: 30px;
+  }
+
+  footer ul{
+    margin-left: 30px;
   }
 }
