@@ -1,10 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
   margin: auto;
-  max-width: 1440px;
+  font-family: 'Raleway';
 }
 
 .container {
   margin: 44px 50px 0 50px;
+  max-width: 1400px;
 }
 
 header {
@@ -50,7 +54,6 @@ nav ul {
 
 
 h1 {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -59,7 +62,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   color: black;
@@ -109,7 +111,7 @@ input[type="search" i] {
   padding-left: 10px;
 }
 
-.search__bar::placeholder{
+.search__bar::placeholder {
   font-weight: 700;
   color: black;
 }
@@ -152,6 +154,7 @@ input[type="submit" i] {
 .buttonsfilters {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .buttonsfilters>li {
@@ -185,7 +188,6 @@ input[type="submit" i] {
 
 #infos {
   display: flex;
-  width: 489px;
   height: 24px;
   align-items: center;
 }
@@ -215,7 +217,6 @@ input[type="submit" i] {
   background-color: #f2f2f2;
   display: flex;
   width: 880px;
-  height: 626px;
   border-radius: 20px;
   flex-direction: column;
 }
@@ -310,7 +311,6 @@ input[type="submit" i] {
 
 .morefamous {
   width: 420px;
-  height: 625px;
   background: #F2F2F2;
   border-radius: 20px;
   margin-left: 40px;
@@ -394,6 +394,7 @@ input[type="submit" i] {
 .blocactiv {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .activity>h2 {
@@ -406,6 +407,7 @@ input[type="submit" i] {
   width: 302px;
   height: 444px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  object-fit: cover;
 }
 
 .activcard .titlecard {
@@ -487,7 +489,7 @@ footer ul {
     padding: 39px 0 0 0;
   }
 
-      
+
   .morefamous {
     width: 883px;
     height: 278px;
@@ -496,7 +498,7 @@ footer ul {
     margin: 10px 0 0 0;
   }
 
-  
+
 
   .morefamous .cards {
     width: 252px;
@@ -570,12 +572,12 @@ footer ul {
     justify-content: center;
   }
 
-  .menu ul{
+  .menu ul {
     width: 100%;
     padding-inline-start: 0;
   }
-  
-  .menu ul li{
+
+  .menu ul li {
     display: flex;
     width: 100%;
     text-align: center;
@@ -600,7 +602,7 @@ footer ul {
     width: 298px;
   }
 
-  main #search_filters h2{
+  main #search_filters h2 {
     font-size: 16px;
   }
 
@@ -611,7 +613,7 @@ footer ul {
     width: auto;
   }
 
-  .searching{
+  .searching {
     width: 100%;
   }
 
@@ -648,28 +650,28 @@ footer ul {
     padding-inline-start: 0;
   }
 
-  .buttonsfilters>li{
+  .buttonsfilters>li {
     margin-right: 14px;
     margin-bottom: 17px;
   }
 
-  .buttonsfilters>li button{
+  .buttonsfilters>li button {
     padding: 0 13px 0 13px;
     font-size: 11px;
   }
 
-  .buttonsfilters>li button i{
+  .buttonsfilters>li button i {
     padding: 0 5px 0 0;
   }
 
   #infos {
-    width:auto;
+    width: auto;
     padding: 0;
     height: auto;
     margin: 0 20px;
   }
 
-  #infos>h2{
+  #infos>h2 {
     font-size: 16px;
   }
 
@@ -703,68 +705,74 @@ footer ul {
     justify-content: space-evenly;
     align-items: center;
   }
-  .section1 .cardsheb{
+
+  .section1 .cardsheb {
     width: auto;
     margin: 23px 15.5px 14px 15.5px;
   }
 
-  .section1 .titlecard{
+  .section1 .titlecard {
     font-size: 16px;
   }
 
-  .showmore a{
+  .showmore a {
     display: none;
   }
-.section1 h2{
-  margin: 20px 0 0 20px;
-}
 
-.section1 p{
-  font-size: 14px;}
+  .section1 h2 {
+    margin: 20px 0 0 20px;
+  }
 
-  .imgheb{
+  .section1 p {
+    font-size: 14px;
+  }
+
+  .imgheb {
     width: 100%;
-    
+
   }
 
   .imgpop {
     width: 137px;
   }
-#famous-head{
+
+  #famous-head {
     padding: 0;
     width: 100%;
     justify-content: space-around;
     margin: 0;
   }
-  #famous-head h2{
+
+  #famous-head h2 {
     margin: 0;
   }
 
   .morefamous .cards {
     width: auto;
     margin: 0px 19px 0px 20px;
-    
+
   }
-.morefamous .titlecard{
-   margin: 16px 22px 15px 6px;
-  line-height: 18.78px;
-}
 
-.morefamous .content{
-  width: auto;
-}
+  .morefamous .titlecard {
+    margin: 16px 22px 15px 6px;
+    line-height: 18.78px;
+  }
 
-.morefamous .content>p{
-  width: 100%;
-  margin: 7px 4px 0 7px;
-}
+  .morefamous .content {
+    width: auto;
+  }
+
+  .morefamous .content>p {
+    width: 100%;
+    margin: 7px 4px 0 7px;
+  }
 
   .blocactiv {
     display: flex;
     flex-direction: column;
   }
 
-  .activity{
+  .activity {
     margin: 0 19px 0 19px;
   }
 
@@ -792,12 +800,12 @@ footer ul {
   }
 
   footer .footer>h2 {
-      height: 21px;
+    height: 21px;
     font-size: 18px;
     margin-left: 30px;
   }
 
-  footer ul{
+  footer ul {
     margin-left: 30px;
   }
 }
